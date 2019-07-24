@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzw.mapper.SaleMapper" >
+  <resultMap id="BaseResultMap" type="com.wzw.entity.Sale" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="sale_menu_id" property="saleMenuId" jdbcType="INTEGER" />
+    <result column="store_medicine_id" property="storeMedicineId" jdbcType="INTEGER" />
+    <result column="sale_price" property="salePrice" jdbcType="REAL" />
+    <result column="sale_vip_price" property="saleVipPrice" jdbcType="REAL" />
+    <result column="amount" property="amount" jdbcType="INTEGER" />
+    <result column="total_price" property="totalPrice" jdbcType="REAL" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, sale_menu_id, store_medicine_id, sale_price, sale_vip_price, amount, total_price, 
+    status
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from t_sale
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_sale
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.wzw.entity.Sale" >
+    insert into t_sale (id, sale_menu_id, store_medicine_id, 
+      sale_price, sale_vip_price, amount, 
+      total_price, status)
+    values (#{id,jdbcType=INTEGER}, #{saleMenuId,jdbcType=INTEGER}, #{storeMedicineId,jdbcType=INTEGER}, 
+      #{salePrice,jdbcType=REAL}, #{saleVipPrice,jdbcType=REAL}, #{amount,jdbcType=INTEGER}, 
+      #{totalPrice,jdbcType=REAL}, #{status,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wzw.entity.Sale" >
+    insert into t_sale
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="saleMenuId != null" >
+        sale_menu_id,
+      </if>
+      <if test="storeMedicineId != null" >
+        store_medicine_id,
+      </if>
+      <if test="salePrice != null" >
+        sale_price,
+      </if>
+      <if test="saleVipPrice != null" >
+        sale_vip_price,
+      </if>
+      <if test="amount != null" >
+        amount,
+      </if>
+      <if test="totalPrice != null" >
+        total_price,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="saleMenuId != null" >
+        #{saleMenuId,jdbcType=INTEGER},
+      </if>
+      <if test="storeMedicineId != null" >
+        #{storeMedicineId,jdbcType=INTEGER},
+      </if>
+      <if test="salePrice != null" >
+        #{salePrice,jdbcType=REAL},
+      </if>
+      <if test="saleVipPrice != null" >
+        #{saleVipPrice,jdbcType=REAL},
+      </if>
+      <if test="amount != null" >
+        #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null" >
+        #{totalPrice,jdbcType=REAL},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wzw.entity.Sale" >
+    update t_sale
+    <set >
+      <if test="saleMenuId != null" >
+        sale_menu_id = #{saleMenuId,jdbcType=INTEGER},
+      </if>
+      <if test="storeMedicineId != null" >
+        store_medicine_id = #{storeMedicineId,jdbcType=INTEGER},
+      </if>
+      <if test="salePrice != null" >
+        sale_price = #{salePrice,jdbcType=REAL},
+      </if>
+      <if test="saleVipPrice != null" >
+        sale_vip_price = #{saleVipPrice,jdbcType=REAL},
+      </if>
+      <if test="amount != null" >
+        amount = #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null" >
+        total_price = #{totalPrice,jdbcType=REAL},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wzw.entity.Sale" >
+    update t_sale
+    set sale_menu_id = #{saleMenuId,jdbcType=INTEGER},
+      store_medicine_id = #{storeMedicineId,jdbcType=INTEGER},
+      sale_price = #{salePrice,jdbcType=REAL},
+      sale_vip_price = #{saleVipPrice,jdbcType=REAL},
+      amount = #{amount,jdbcType=INTEGER},
+      total_price = #{totalPrice,jdbcType=REAL},
+      status = #{status,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+
+
+  <select id="allSale" resultMap="BaseResultMap">
+    select
+   *
+    from t_sale
+  </select>
+
+  <select id="countAllSale" resultType="java.lang.Integer">
+    select
+    count(id)
+    from t_sale
+  </select>
+
+</mapper>

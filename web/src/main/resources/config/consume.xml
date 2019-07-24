@@ -1,0 +1,49 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- provider's application name, used for tracing dependency relationship -->
+    <dubbo:application name="consume_wzw">
+<!--        <dubbo:parameter key="qos.enable" value="true"/>
+        <dubbo:parameter key="qos.accept.foreign.ip" value="false"/>
+        <dubbo:parameter key="qos.port" value="33333"/>-->
+    </dubbo:application>
+    <!-- use multicast registry center to export service -->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!-- use dubbo protocol to export service on port 20880 -->
+  <!--  <dubbo:protocol name="dubbo" port="20880"/>-->
+    <!-- service implementation, as same as regular local bean -->
+<!--    <bean id="EmployeeServiceImpl" class="com.wzw.provider.Service.EmployeeServiceImpl"/>-->
+    <!-- declare the service interface to be exported -->
+
+    <dubbo:reference id="customerService" check="false" interface="com.wzw.service.ICustomerService"/>
+
+    <dubbo:reference id="employeeService" check="false" interface="com.wzw.service.IEmployeeService"/>
+
+    <dubbo:reference id="incomeService" check="false" interface="com.wzw.service.IIncomeService"/>
+
+    <dubbo:reference id="medicineService" check="false" interface="com.wzw.service.IMedicineService"/>
+
+    <dubbo:reference id="medicineMenuService" check="false" interface="com.wzw.service.IMedicineMenuService"/>
+
+    <dubbo:reference id="storeService" check="false" interface="com.wzw.service.IStoreService"/>
+
+    <dubbo:reference id="purchasingMenuService" check="false" interface="com.wzw.service.IPurchasingMenuService"/>
+
+    <dubbo:reference id="purchasingService" check="false" interface="com.wzw.service.IPurchasingService"/>
+
+    <dubbo:reference id="saleService" check="false" interface="com.wzw.service.ISaleService"/>
+
+    <dubbo:reference id="saleMenuService" check="false" interface="com.wzw.service.ISaleMenuService"/>
+
+    <dubbo:reference id="supplierService" check="false" interface="com.wzw.service.ISupplierService"/>
+
+
+
+
+    <dubbo:reference id="adRabbitMqService" check="false" interface="com.wzw.service.feature.EmailService"/>
+    <dubbo:reference id="validateCodeService" check="false" interface="com.wzw.service.feature.IValidateCodeService"/>
+
+</beans>

@@ -1,0 +1,11 @@
+---
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+
+---
+server:
+  port: 8888
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzw.mapper.PurchasingIncomeMapper" >
+
+
+<!--
+  <resultMap id="BaseResultMap" type="com.wzw.entity.PurchasingIncomeInformation" >
+    <id column="medicine_id" property="medicineId" jdbcType="INTEGER" />
+    <result column="purchasing_menu_name" property="number" jdbcType="VARCHAR" />
+    <result column="store_medicine_id" property="name" jdbcType="INTEGER" />
+    <result column="purchasing_price" property="date" jdbcType="DATE" />
+    <result column="total_price" property="totalIncome" jdbcType="REAL" />
+  </resultMap>
+-->
+
+  <select id="inIncome" parameterType="java.lang.Integer" resultType="com.wzw.entity.PurchasingIncomeInformation">
+      SELECT
+          t_store.medicine_id as medicineId
+          ,t_store.medicine_menu_number as number,
+          t_store.medicine_menu_name as name,
+          t_store.production_date as `date`,
+          t_purchasing.total_price as totalIncome
+      FROM t_store, t_purchasing
+      WHERE t_store.medicine_id = t_purchasing.store_medicine_id AND t_purchasing.store_medicine_id = #{medicineId}
+  </select>
+
+
+</mapper>

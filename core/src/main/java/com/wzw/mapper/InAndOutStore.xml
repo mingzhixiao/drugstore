@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzw.mapper.InAndOutStore" >
+
+
+  <select id="findMedicine" resultType="com.wzw.entity.MedicineInformation" parameterType="java.lang.Integer">
+
+    SELECT
+    t_medicine_menu.number AS  number ,  t_medicine_menu.name  as `name` , t_medicine_menu.medicine_min AS medicineMin,t_medicine_menu.medicine_max As medicineMax
+    , t_medicine.id, t_medicine.type as id, t_medicine.simplify as simplify, t_medicine.shape as shape, t_medicine.format as format,  t_medicine.validate as validate, t_medicine.production_date as productionDate
+    FROM
+        t_medicine_menu ,t_medicine
+    WHERE
+        t_medicine_menu.number = t_medicine.medicine_menu_number and t_medicine.id = #{medicineId}
+
+  </select>
+
+
+
+
+</mapper>

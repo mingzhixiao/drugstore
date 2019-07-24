@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzw.mapper.StoreMapper" >
+  <resultMap id="BaseResultMap" type="com.wzw.entity.Store" >
+    <id column="medicine_id" property="medicineId" jdbcType="INTEGER" />
+    <result column="medicine_menu_number" property="medicineMenuNumber" jdbcType="INTEGER" />
+    <result column="medicine_menu_name" property="medicineMenuName" jdbcType="VARCHAR" />
+    <result column="store_min" property="storeMin" jdbcType="INTEGER" />
+    <result column="store_max" property="storeMax" jdbcType="INTEGER" />
+    <result column="amount" property="amount" jdbcType="INTEGER" />
+    <result column="deadline" property="deadline" jdbcType="INTEGER" />
+    <result column="production_date" property="productionDate" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    medicine_id, medicine_menu_number, medicine_menu_name, store_min, store_max, amount, 
+    deadline, production_date
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from t_store
+    where medicine_id = #{medicineId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_store
+    where medicine_id = #{medicineId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.wzw.entity.Store" >
+    insert into t_store (medicine_id, medicine_menu_number, medicine_menu_name, 
+      store_min, store_max, amount, 
+      deadline, production_date)
+    values (#{medicineId,jdbcType=INTEGER}, #{medicineMenuNumber,jdbcType=INTEGER}, #{medicineMenuName,jdbcType=VARCHAR}, 
+      #{storeMin,jdbcType=INTEGER}, #{storeMax,jdbcType=INTEGER}, #{amount,jdbcType=INTEGER},
+      #{deadline,jdbcType=INTEGER}, #{productionDate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wzw.entity.Store" >
+    insert into t_store
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="medicineId != null" >
+        medicine_id,
+      </if>
+      <if test="medicineMenuNumber != null" >
+        medicine_menu_number,
+      </if>
+      <if test="medicineMenuName != null" >
+        medicine_menu_name,
+      </if>
+      <if test="storeMin != null" >
+        store_min,
+      </if>
+      <if test="storeMax != null" >
+        store_max,
+      </if>
+      <if test="amount != null" >
+        amount,
+      </if>
+      <if test="deadline != null" >
+        deadline,
+      </if>
+      <if test="productionDate != null" >
+        production_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="medicineId != null" >
+        #{medicineId,jdbcType=INTEGER},
+      </if>
+      <if test="medicineMenuNumber != null" >
+        #{medicineMenuNumber,jdbcType=INTEGER},
+      </if>
+      <if test="medicineMenuName != null" >
+        #{medicineMenuName,jdbcType=VARCHAR},
+      </if>
+      <if test="storeMin != null" >
+        #{storeMin,jdbcType=INTEGER},
+      </if>
+      <if test="storeMax != null" >
+        #{storeMax,jdbcType=INTEGER},
+      </if>
+      <if test="amount != null" >
+        #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="deadline != null" >
+        #{deadline,jdbcType=INTEGER},
+      </if>
+      <if test="productionDate != null" >
+        #{productionDate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wzw.entity.Store" >
+    update t_store
+    <set >
+      <if test="medicineMenuNumber != null" >
+        medicine_menu_number = #{medicineMenuNumber,jdbcType=INTEGER},
+      </if>
+      <if test="medicineMenuName != null" >
+        medicine_menu_name = #{medicineMenuName,jdbcType=VARCHAR},
+      </if>
+      <if test="storeMin != null" >
+        store_min = #{storeMin,jdbcType=INTEGER},
+      </if>
+      <if test="storeMax != null" >
+        store_max = #{storeMax,jdbcType=INTEGER},
+      </if>
+      <if test="amount != null" >
+        amount = #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="deadline != null" >
+        deadline = #{deadline,jdbcType=INTEGER},
+      </if>
+      <if test="productionDate != null" >
+        production_date = #{productionDate,jdbcType=DATE},
+      </if>
+    </set>
+    where medicine_id = #{medicineId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wzw.entity.Store" >
+    update t_store
+    set medicine_menu_number = #{medicineMenuNumber,jdbcType=INTEGER},
+      medicine_menu_name = #{medicineMenuName,jdbcType=VARCHAR},
+      store_min = #{storeMin,jdbcType=INTEGER},
+      store_max = #{storeMax,jdbcType=INTEGER},
+      amount = #{amount,jdbcType=INTEGER},
+      deadline = #{deadline,jdbcType=INTEGER},
+      production_date = #{productionDate,jdbcType=DATE}
+    where medicine_id = #{medicineId,jdbcType=INTEGER}
+  </update>
+
+
+<select id="allStore" resultMap="BaseResultMap">
+  select
+  *
+  from t_store
+   where amount >= 0
+</select>
+
+
+
+
+
+  <select id="countAllStore" resultType="java.lang.Integer">
+    select
+    count(medicine_id)
+    from t_store
+  </select>
+
+
+
+
+
+</mapper>

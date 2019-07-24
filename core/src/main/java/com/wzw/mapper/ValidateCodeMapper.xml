@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzw.mapper.ValidateCodeMapper" >
+  <resultMap id="BaseResultMap" type="com.wzw.entity.ValidateCode" >
+    <id column=" id" property="id" jdbcType="INTEGER" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    " id", email, password
+  </sql>
+<select id="getValidateCodeByEmail" resultType="java.lang.String"  parameterType="java.lang.String">
+  select password from t_validate_code where email = #{email}
+</select>
+
+<delete id="deleteValidateCode" parameterType="java.lang.String">
+  delete from t_validate_code where email = #{email}
+</delete>
+
+  <insert id="insert" parameterType="com.wzw.entity.ValidateCode" >
+    insert into t_validate_code ( email, password
+      )
+    values (#{email,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
+      )
+  </insert>
+</mapper>

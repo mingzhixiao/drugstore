@@ -1,0 +1,91 @@
+html{
+	height: 100%;
+    width: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	background: url(../img/login.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	height: 100%;
+    width: 100%;
+}
+.login_main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgb(2,0,0,0.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgb(0,0,0,.5);
+	border-radius: 10px;
+	}
+.login_main h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.login_main .inputBox {
+	position: relative;	
+}
+.login_main .inputBox select{
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF9EC;
+	outline: none;
+	background: transparent;
+}
+.login_main .inputBox select option{
+	background-color: #0C0C0C;
+	font-family: "微软雅黑";
+}
+
+.login_main .inputBox input{
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF9EC;
+	outline: none;
+	background: transparent;
+}
+.login_main .inputBox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.login_main .inputBox input:focus ~label,
+.login_main .inputBox input:valid ~label  {
+	top:-18px;
+	left:0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.login_main input[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+}
