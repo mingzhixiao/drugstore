@@ -48,6 +48,12 @@ public class EmployeeController {
         return new ModelAndView("employeeList");
     }
 
+    /**
+     * 查询所有的员工信息
+     * @param page
+     * @param modelMap
+     * @return
+     */
     @GetMapping("/all")
     public ModelAndView allEmployee(int page, ModelMap modelMap){
         Page<EmployeeVo> allEmployee = employeeService.getAllEmployee(page, limit);

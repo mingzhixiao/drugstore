@@ -92,7 +92,11 @@ public class CustomerController {
         return hashMap;
     }
 
-
+    /**
+     * 根据id来删除顾客信息
+     * @param id
+     * @return
+     */
     @DeleteMapping("/delete/{id}")
     public Boolean delete(@PathVariable("id") int id){
         Boolean deleteCustomerVo = customerService.deleteCustomerVo(id);

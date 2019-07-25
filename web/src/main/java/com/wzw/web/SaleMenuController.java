@@ -26,11 +26,6 @@ public class SaleMenuController {
     ISaleMenuService saleMenuService;
     int limit = 10;
 
-    /**
-     * 去往销售详情界面
-     * @param modelMap
-     * @return
-     */
     @RequestMapping("/goAll")
     public ModelAndView goAll(ModelMap modelMap){
 /*        Page<SaleMenuVo> saleMenuVoPage = saleMenuService.allSaleMenu(1, limit);
