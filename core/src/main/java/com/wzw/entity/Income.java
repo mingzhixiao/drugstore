@@ -1,6 +1,9 @@
 package com.wzw.entity;
 
 public class Income {
+    /**
+     * 自增的id
+     */
     private Integer id;
 
     private Integer medicineMenuNumber;
