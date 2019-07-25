@@ -1,18 +1,33 @@
 package com.wzw.entity;
 
 public class Employee {
+    /**
+     *员工id
+     */
     private Integer id;
-
+    /**
+     * 员工姓名
+     */
     private String name;
-
+    /**
+     * 员工密码
+     */
     private String password;
-
+    /**
+     * 员工权限
+     */
     private Integer set;
-
+    /**
+     * 手机号
+     */
     private String phone;
-
+    /**
+     * 邮箱
+     */
     private String email;
-
+    /**
+     * 状态
+     */
     private Integer status;
 
     public Integer getId() {
