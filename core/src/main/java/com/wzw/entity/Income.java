@@ -1,20 +1,37 @@
 package com.wzw.entity;
 
 public class Income {
+    /**
+     * 收入id
+     */
     private Integer id;
-
+    /**
+     * 药品明细编号
+     */
     private Integer medicineMenuNumber;
-
+    /**
+     * 药品名称
+     */
     private String medicineMenuName;
-
+    /**
+     * 收入
+     */
     private Float income;
-
+    /**
+     * 支出
+     */
     private Float expense;
-
+    /**
+     * 月份
+     */
     private String month;
-
+    /**
+     * 年份
+     */
     private String year;
-
+    /**
+     * 总收入
+     */
     private Float totalIncome;
 
     public Integer getId() {
