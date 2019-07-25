@@ -27,6 +27,11 @@ public class SupplierController {
     ISupplierService supplierService;
     int limit = 10;
 
+    /**
+     * 来到供应商信息页面
+     * @param modelMap
+     * @return
+     */
     @RequestMapping("/goAll")
     public ModelAndView goAll(ModelMap modelMap){
 /*        Page<SupplierVo> supplierVoPage = supplierService.allSupplier(1, limit);
