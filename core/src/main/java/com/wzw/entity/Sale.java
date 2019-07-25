@@ -1,20 +1,37 @@
 package com.wzw.entity;
 
 public class Sale {
+    /**
+     * 主 id
+     */
     private Integer id;
-
+    /**
+     * 主 销售详情id
+     */
     private Integer saleMenuId;
-
+    /**
+     * 主 药品id
+     */
     private Integer storeMedicineId;
-
+    /**
+     * 主 药品价格
+     */
     private Float salePrice;
-
+    /**
+     * 主 药品vip价格
+     */
     private Float saleVipPrice;
-
+    /**
+     * 主 药品数量
+     */
     private Integer amount;
-
+    /**
+     * 主 总价
+     */
     private Float totalPrice;
-
+    /**
+     * 主  药品状态
+     */
     private Integer status;
 
     public Integer getId() {
