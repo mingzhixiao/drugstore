@@ -54,10 +54,10 @@ public class Emps {
     }
 
 
-
-
-
-
+    /**
+     * 查询所有的员工信息
+     * @return
+     */
     @GetMapping("/all")
     public List<EmployeeVo> allEmployee(){
         Map<String, Object> hashMap = new HashMap<>();
