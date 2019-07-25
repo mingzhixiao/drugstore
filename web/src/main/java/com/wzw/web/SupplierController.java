@@ -28,7 +28,7 @@ public class SupplierController {
     int limit = 10;
 
     /**
-     * 来到供应商信息页面
+     * 前往供应商信息页面
      * @param modelMap
      * @return
      */
