@@ -2,17 +2,29 @@ package com.wzw.entity;
 
 public class Supplier {
     private Integer id;
-
+    /**
+     * 供应商名称（test）
+     */
     private String name;
-
+    /**
+     * 联系人姓名（test）
+     */
     private String linkman;
-
+    /**
+     * 手机号（test）
+     */
     private String phone;
-
+    /**
+     * 地址（test）
+     */
     private String address;
-
+    /**
+     * 邮箱（test）
+     */
     private String email;
-
+    /**
+     * 状态（test）
+     */
     private Integer status;
 
     public Integer getId() {
