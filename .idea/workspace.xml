@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BeansEndpointTabSettings">
+    <option name="showContexts" value="false" />
+    <option name="showLibraryBeans" value="false" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/medicineMenu/medicineMenuList.js" line="67" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/medicineMenu/medicineMenuList.js" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/medicineMenu/medicineMenuList.js" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/medicineMenu/medicineMenuList.js" line="85" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/sale/saleList.js" line="83" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/sale/saleList.js" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/static/myJs/sale/saleList.js" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/home.jsp" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/home.jsp" line="62" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0542364-c359-4425-b1a3-64f46a35c83f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Store.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/remote/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/provide/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/drugstore$ProvideApplication.ic" NAME="ProvideApplication Coverage Results" MODIFIED="1554978602936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/drugstore$WebApplication.ic" NAME="WebApplication Coverage Results" MODIFIED="1555294663399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/SupplierController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Supplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
+                <element signature="e#1575#1576#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
+                <element signature="e#1891#1892#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#2048#2049#0" expanded="true" />
+                <element signature="e#2088#2089#0" expanded="true" />
+                <element signature="e#2122#2123#0" expanded="true" />
+                <element signature="e#2151#2152#0" expanded="true" />
+                <element signature="e#2196#2197#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
+                <element signature="e#2268#2269#0" expanded="true" />
+                <element signature="e#2299#2300#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+                <element signature="e#2388#2389#0" expanded="true" />
+                <element signature="e#2427#2428#0" expanded="true" />
+                <element signature="e#2464#2465#0" expanded="true" />
+                <element signature="e#2522#2523#0" expanded="true" />
+                <element signature="e#2574#2575#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Income.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/core (1).iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>res</find>
+      <find>set, email, status</find>
+      <find>bit</find>
+      <find>Boolean</find>
+      <find>nam</find>
+      <find>alert</find>
+      <find>myModal</find>
+      <find>con</find>
+      <find>name</find>
+      <find>ed</find>
+      <find>tablebody</find>
+      <find>jdbcType=In</find>
+      <find>id</find>
+      <find>/emps/hh</find>
+      <find>url</find>
+      <find>deleteA</find>
+      <find>delete</find>
+      <find>addEmployee</find>
+      <find>addEm</find>
+      <find>addE</find>
+      <find>add</find>
+      <find>parameter</find>
+      <find>Integer</find>
+      <find>side</find>
+      <find>bootstrap-table.css</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/PurchasingController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/wzw/vo/EmployeeVo.java" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/wzw/service/IEmployeeService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/inStore.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/MedicineMenuController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/StoreController.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IPurchasingMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/storeAdd.jsp" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/wzw/service/IStoreService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/StoreMapper.xml" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/wzw/vo/IncomeVo.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/InAndOutStore.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/IncomeInformation.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/PurchasingIncomeInformation.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/PurchasingIncomeMapper.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Income.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/MedicineController.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IStoreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/InAndOutStore.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/MedicineInformation.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/PurchasingIncomeMapper.xml" />
+        <option value="$PROJECT_DIR$/remote/src/main/java/com/wzw/utils/Page.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IPurchasingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/ISaleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/PurchasingMapper.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/feature/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/StoreMapper.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/IncomeMapper.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/config/MySwagger.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/config/MyShiroConfig.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/IncomeController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/income.jsp" />
+        <option value="$PROJECT_DIR$/provide/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IEmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/provide/src/main/resources/config/provider.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/supplier.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/store.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicineMenu.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicine.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/sale.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/saleMenu.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/home.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/purchasingMenu.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/emps4.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/modifyPersonalInformation.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wzw/web/SupplierController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Store.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="provide" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="provide" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drugstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drugstore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzw" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564447211826" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../drugstore11/drugstore" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18652344" />
+    <property name="project.structure.side.proportion" value="0.3545082" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\static\myJs\customer" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\static\myJs\income" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wzw.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\core\src\main\java\com\wzw\mapper" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\static\clock" />
+      <recent name="C:\Users\Administrator\Desktop\毕设阶段\drugstore05\drugstore\web\src\main\webapp\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="core [mybatis-generator:generate,-e]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/core" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Core" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzw.Core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzw.ProvideApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remote" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="remote" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzw.Remote" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzw.WebApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.core [mybatis-generator:generate,-e]" />
+      <item itemvalue="Spring Boot.Core" />
+      <item itemvalue="Spring Boot.ProvideApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.Remote" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0542364-c359-4425-b1a3-64f46a35c83f" name="Default Changelist" comment="" />
+      <created>1554295314049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554295314049</updated>
+      <workItem from="1554295315946" duration="3383000" />
+      <workItem from="1554433143923" duration="49821000" />
+      <workItem from="1554686826178" duration="26287000" />
+      <workItem from="1554773789782" duration="6958000" />
+      <workItem from="1554859794509" duration="27088000" />
+      <workItem from="1554910187237" duration="4492000" />
+      <workItem from="1554945914590" duration="46713000" />
+      <workItem from="1555032595199" duration="17808000" />
+      <workItem from="1555058664962" duration="3341000" />
+      <workItem from="1555172771143" duration="9376000" />
+      <workItem from="1555220378606" duration="12029000" />
+      <workItem from="1555286917010" duration="2163000" />
+      <workItem from="1555292595914" duration="10332000" />
+      <workItem from="1555307495210" duration="68000" />
+      <workItem from="1555307614112" duration="27427000" />
+      <workItem from="1555381415357" duration="11666000" />
+      <workItem from="1555423181134" duration="4640000" />
+      <workItem from="1555852400431" duration="591000" />
+      <workItem from="1556195254560" duration="3259000" />
+      <workItem from="1556262193179" duration="39509000" />
+      <workItem from="1556605262851" duration="2030000" />
+      <workItem from="1556723267179" duration="1991000" />
+      <workItem from="1556777371348" duration="19146000" />
+      <workItem from="1556859299296" duration="26834000" />
+      <workItem from="1556942618435" duration="19479000" />
+      <workItem from="1556979335145" duration="17987000" />
+      <workItem from="1557124604945" duration="3517000" />
+      <workItem from="1557197559954" duration="70519000" />
+      <workItem from="1557684323479" duration="625000" />
+      <workItem from="1557720527900" duration="12115000" />
+      <workItem from="1557762137467" duration="68780000" />
+      <workItem from="1557978211683" duration="7013000" />
+      <workItem from="1557999721276" duration="68907000" />
+      <workItem from="1558194227970" duration="4146000" />
+      <workItem from="1559275727814" duration="36310000" />
+      <workItem from="1562108753055" duration="1822000" />
+      <workItem from="1562481599233" duration="612000" />
+      <workItem from="1564446894892" duration="560000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交分支信息">
+      <created>1564014144812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564014144812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="库存实体类添加注释（master）">
+      <created>1564446996954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564446996954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RemoteApplicationTests_contextLoads - 2019.04.06 at 13h 50m 57s.xml">
+      <configuration name="RemoteApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteApplicationTests_dd - 2019.04.06 at 15h 30m 02s.xml">
+      <configuration name="RemoteApplicationTests.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteApplicationTests_dd - 2019.04.06 at 15h 31m 23s.xml">
+      <configuration name="RemoteApplicationTests.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteApplicationTests_dd - 2019.04.06 at 15h 32m 24s.xml">
+      <configuration name="RemoteApplicationTests.dd" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="669615000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.3184569" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50383633" side_tool="true" weight="0.30711043" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33060557" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2618658" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48940998" weight="0.21767594" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51059" side_tool="true" weight="0.21767594" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.21440262" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Statistic" order="15" weight="0.42553192" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49905124" visible="true" weight="0.12481089" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009488" side_tool="true" weight="0.059757944" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交分支信息" />
+    <MESSAGE value="库存实体类添加注释（master）" />
+    <option name="LAST_COMMIT_MESSAGE" value="库存实体类添加注释（master）" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="subject" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/provide/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/java/com/wzw/ProvideApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/consume.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IIncomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/java/com/wzw/service/IEmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/resources/config/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/storeAdd1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicineAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/income.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="416" column="39" selection-start-line="416" selection-start-column="39" selection-end-line="416" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicineMenuAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicineMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="281" column="21" lean-forward="true" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/purchasingAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/purchasing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/purchasingMenuAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/sale.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="346" column="13" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/saleMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="293" column="13" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/store.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="349" column="44" selection-start-line="349" selection-start-column="44" selection-end-line="349" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/supplier.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="333" column="13" selection-start-line="333" selection-start-column="13" selection-end-line="333" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/customerAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/employeeAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/medicine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="367" column="48" selection-start-line="367" selection-start-column="48" selection-end-line="367" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="233" column="6" lean-forward="true" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/emps.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provide/src/main/java/com/wzw/service/ICustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/src/main/java/com/wzw/service/ICustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/Emps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/purchasingMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7325">
+          <caret line="293" column="13" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/StoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/SaleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/SaleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/emps4.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10325">
+          <caret line="413" column="33" selection-start-line="413" selection-start-column="33" selection-end-line="413" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/modify.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/modifyPersonalInformation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3275">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/SaleMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/SupplierController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Income.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core (1).iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wzw/web/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/wzw/entity/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2388#2389#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2522#2523#0" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>provide:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (web)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.mybatis:mybatis-spring:2.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3545082" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

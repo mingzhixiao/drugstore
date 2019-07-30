@@ -6,17 +6,29 @@ import java.util.Date;
 
 public class Store {
     private Integer medicineId;
-
+    /**
+     * 药品编号（test）
+     */
     private Integer medicineMenuNumber;
-
+    /**
+     * 药品名称（test）
+     */
     private String medicineMenuName;
-
+    /**
+     * 最小库存（test）
+     */
     private Integer storeMin;
-
+    /**
+     * 最大库存（test）
+     */
     private Integer storeMax;
-
+    /**
+     * 数量（test）
+     */
     private Integer amount;
-
+    /**
+     * 截止日期（test）
+     */
     private Integer deadline;
     @JSONField(format = "yyyy-MM-dd")
     private Date productionDate;
