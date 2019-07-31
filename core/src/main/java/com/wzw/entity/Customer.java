@@ -2,16 +2,26 @@ package com.wzw.entity;
 
 public class Customer {
     private Integer id;
-
+    /**
+     * 姓名（test）
+     */
     private String name;
-
+    /**
+     * 手机号(test)
+     */
 
     private String phone;
-
+    /**
+     * 权限(test)
+     */
     private Integer set;
-
+    /**
+     * 邮箱(test)
+     */
     private String email;
-
+    /**
+     * 状态(test)
+     */
     private Integer status;
 
     public Integer getId() {
