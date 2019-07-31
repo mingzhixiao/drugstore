@@ -2,16 +2,27 @@ package com.wzw.entity;
 
 public class Customer {
     private Integer id;
+    /**
+     * 顾客姓名(master)
+     */
 
     private String name;
-
+    /**
+     * 手机号(master)
+     */
 
     private String phone;
-
+    /**
+     * 权限(master)
+     */
     private Integer set;
-
+    /**
+     * 邮箱（master）
+     */
     private String email;
-
+    /**
+     * 状态（master）
+     */
     private Integer status;
 
     public Integer getId() {
@@ -53,6 +64,7 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email == null ? null : email.trim();
     }
+
 
     public Integer getStatus() {
         return status;
