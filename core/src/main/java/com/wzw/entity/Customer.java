@@ -3,8 +3,9 @@ package com.wzw.entity;
 public class Customer {
     private Integer id;
     /**
-     * 姓名（test）
+     * 顾客姓名(master)
      */
+
     private String name;
     /**
      * 手机号(test)
@@ -12,7 +13,7 @@ public class Customer {
 
     private String phone;
     /**
-     * 权限(test)
+     * 权限(master)
      */
     private Integer set;
     /**
@@ -20,7 +21,7 @@ public class Customer {
      */
     private String email;
     /**
-     * 状态(test)
+     * 状态（master）
      */
     private Integer status;
 
