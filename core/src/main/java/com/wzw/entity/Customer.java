@@ -3,7 +3,7 @@ package com.wzw.entity;
 public class Customer {
     private Integer id;
     /**
-     * 顾客姓名(master)
+     * 顾客姓名(test)
      */
 
     private String name;
