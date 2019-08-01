@@ -16,7 +16,7 @@
     <description>Im web</description>
 
     <properties>
-        <java.version>{java_version}</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
